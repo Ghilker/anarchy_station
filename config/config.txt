@@ -16,16 +16,16 @@ $include interviews.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-# SERVERNAME tgstation
+@SERVERNAME anarchystation
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME tgstation
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Space Station 13
+# STATIONNAME Space Station 13
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
-#HUB
+HUB
 
 ## Lobby time: This is the amount of time between rounds that players have to setup their characters and be ready.
 LOBBY_COUNTDOWN 120
@@ -39,10 +39,10 @@ ROUND_END_COUNTDOWN 90
 ADMIN_LEGACY_SYSTEM
 
 ##Uncomment this to stop any admins loaded by the legacy system from having their rank edited by the permissions panel
-#PROTECT_LEGACY_ADMINS
+PROTECT_LEGACY_ADMINS
 
 ##Uncomment this to stop any ranks loaded by the legacy system from having their flags edited by the permissions panel
-#PROTECT_LEGACY_RANKS
+PROTECT_LEGACY_RANKS
 
 ##Uncomment this to have admin ranks only loaded from the legacy admin_ranks.txt
 ##If enabled, each time admins are loaded ranks the database will be updated with the current ranks and their flags
@@ -198,16 +198,16 @@ VOTE_PERIOD 600
 # DEFAULT_NO_VOTE
 
 ## disable abandon mob
-NORESPAWN
+#NORESPAWN
 
 ## set a hosted by name for unix platforms
-HOSTEDBY Yournamehere
+HOSTEDBY Ghilker
 
 ## Uncomment this to stop people connecting to your server without a registered ckey. (i.e. guest-* are all blocked from connecting)
-GUEST_BAN
+#GUEST_BAN
 
 ## Comment this out to disable checking for the cid randomizer dll. (disabled if database isn't enabled or connected)
-CHECK_RANDOMIZER
+#CHECK_RANDOMIZER
 
 ## IPINTEL:
 ## This allows you to detect likely proxies by checking ips against getipintel.net
@@ -378,7 +378,7 @@ NOTIFY_NEW_PLAYER_ACCOUNT_AGE 1
 AUTOCONVERT_NOTES
 
 ## Comment this out to stop admin messages sent anytime an admin disconnects from a round in play, you can edit the messages in admin.dm
-ANNOUNCE_ADMIN_LOGOUT
+#ANNOUNCE_ADMIN_LOGOUT
 
 ## Uncomment to have an admin message sent anytime an admin connects to a round in play, you can edit the messages in admin.dm
 #ANNOUNCE_ADMIN_LOGIN
@@ -390,7 +390,7 @@ MAPROTATION
 ## Map voting
 ## Allows players to vote with their preffered map setting
 ## When it's set to zero, the map will be randomly picked each round
-PREFERENCE_MAP_VOTING 1
+PREFERENCE_MAP_VOTING 0
 
 ## AUTOADMIN
 ## The default admin rank
@@ -401,15 +401,15 @@ AUTOADMIN_RANK Game Master
 
 
 ## Uncomment to automatically deadmin players when the game starts.
-#AUTO_DEADMIN_PLAYERS
+AUTO_DEADMIN_PLAYERS
 
 ## Uncomment to automatically deadmin antagonists when they gain the role.
-#AUTO_DEADMIN_ANTAGONISTS
+AUTO_DEADMIN_ANTAGONISTS
 
 ## Uncomment to automatically deadmin specific role sets when a player joins the game.
-#AUTO_DEADMIN_HEADS
-#AUTO_DEADMIN_SECURITY
-#AUTO_DEADMIN_SILICONS
+AUTO_DEADMIN_HEADS
+AUTO_DEADMIN_SECURITY
+AUTO_DEADMIN_SILICONS
 
 
 ## CLIENT VERSION CONTROL

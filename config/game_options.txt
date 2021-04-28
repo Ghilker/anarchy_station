@@ -55,10 +55,10 @@ HUMANS_NEED_SURNAMES
 #FORCE_RANDOM_NAMES
 
 ## Unhash this to turn on automatic reopening of a player's job if they suicide at roundstart
-#REOPEN_ROUNDSTART_SUICIDE_ROLES
+REOPEN_ROUNDSTART_SUICIDE_ROLES
 
 ## Unhash to enable reopening of command level positions
-#REOPEN_ROUNDSTART_SUICIDE_ROLES_COMMAND_POSITIONS
+REOPEN_ROUNDSTART_SUICIDE_ROLES_COMMAND_POSITIONS
 
 ## Define the delay for roles to be reopened after the round starts in seconds.
 ## Has a minimum delay of 30 seconds, though it's suggested to keep over 1 min
@@ -66,7 +66,7 @@ HUMANS_NEED_SURNAMES
 #REOPEN_ROUNDSTART_SUICIDE_ROLES_DELAY 240
 
 ## Unhash to enable a printed command report for reopened roles listing what roles were reopened.
-#REOPEN_ROUNDSTART_SUICIDE_ROLES_COMMAND_REPORT
+REOPEN_ROUNDSTART_SUICIDE_ROLES_COMMAND_REPORT
 
 
 ## ALERT LEVELS ###
@@ -97,11 +97,11 @@ PROBABILITY REVOLUTION 2
 PROBABILITY CULT 2
 PROBABILITY CHANGELING 2
 PROBABILITY WIZARD 4
-PROBABILITY MONKEY 0
+PROBABILITY MONKEY 2
 PROBABILITY METEOR 0
 PROBABILITY EXTENDED 0
 PROBABILITY SECRET_EXTENDED 0
-PROBABILITY CLOWNOPS 0
+PROBABILITY CLOWNOPS 2
 
 ## You probably want to keep sandbox off by default for secret and random.
 PROBABILITY SANDBOX 0
@@ -117,12 +117,12 @@ CONTINUOUS TRAITOR
 CONTINUOUS TRAITORBRO
 CONTINUOUS TRAITORCHAN
 CONTINUOUS INTERNAL_AFFAIRS
-#CONTINUOUS NUCLEAR
-#CONTINUOUS REVOLUTION
+CONTINUOUS NUCLEAR
+CONTINUOUS REVOLUTION
 CONTINUOUS CULT
 CONTINUOUS CHANGELING
 CONTINUOUS WIZARD
-#CONTINUOUS MONKEY
+CONTINUOUS MONKEY
 
 ##Note: do not toggle continuous off for these modes, as they have no antagonists and would thus end immediately!
 
@@ -428,23 +428,23 @@ ROUNDSTART_RACES human
 
 ## Races that are strictly worse than humans that could probably be turned on without balance concerns
 ROUNDSTART_RACES lizard
-#ROUNDSTART_RACES fly
+ROUNDSTART_RACES fly
 ROUNDSTART_RACES moth
 ROUNDSTART_RACES plasmaman
-#ROUNDSTART_RACES shadow
+ROUNDSTART_RACES shadow
 
 ## Races that are better than humans in some ways, but worse in others
 ROUNDSTART_RACES ethereal
-#ROUNDSTART_RACES jelly
-#ROUNDSTART_RACES golem
-#ROUNDSTART_RACES adamantine
-#ROUNDSTART_RACES plasma
-#ROUNDSTART_RACES diamond
-#ROUNDSTART_RACES gold
-#ROUNDSTART_RACES silver
-#ROUNDSTART_RACES uranium
-#ROUNDSTART_RACES abductor
-#ROUNDSTART_RACES synth
+ROUNDSTART_RACES jelly
+ROUNDSTART_RACES golem
+ROUNDSTART_RACES adamantine
+ROUNDSTART_RACES plasma
+ROUNDSTART_RACES diamond
+ROUNDSTART_RACES gold
+ROUNDSTART_RACES silver
+ROUNDSTART_RACES uranium
+ROUNDSTART_RACES abductor
+ROUNDSTART_RACES synth
 
 ## Races that are straight upgrades. If these are on expect powergamers to always pick them
 #ROUNDSTART_RACES skeleton
