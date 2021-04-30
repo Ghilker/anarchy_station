@@ -1,0 +1,40 @@
+{
+	"version": 1,
+	"map_name": "City_station",
+	"map_path": "map_files/City_station",
+	"map_file": "City_station.dmm",
+    "traits": [
+        {
+            "Up": 1,
+			"Gravity": 1,
+            "Linkage": null
+        },
+        {
+            "Up": 1,
+            "Down": -1,
+            "Baseturf": "/turf/open/openspace",
+			"Gravity": 1,
+            "Linkage": null
+        },
+        {
+            "Up": 1,
+            "Down": -1,
+            "Baseturf": "/turf/open/openspace",
+			"Gravity": 1,
+            "Linkage": null
+        },
+        {
+            "Up": 1,
+            "Down": -1,
+            "Baseturf": "/turf/open/openspace",
+			"Gravity": 1,
+            "Linkage": null
+        },
+        {
+            "Down": -1,
+            "Baseturf": "/turf/open/openspace",
+			"Gravity": 1,
+            "Linkage": null
+        }
+    ]
+}

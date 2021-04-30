@@ -28,7 +28,7 @@ GLOBAL_DATUM_INIT(openspace_backdrop_one_for_all, /atom/movable/openspace_backdr
 	initial_gas_mix = AIRLESS_ATMOS
 
 /turf/open/openspace/airless/planetary
-		planetary_atmos = TRUE
+	planetary_atmos = TRUE
 
 /turf/open/openspace/Initialize() // handle plane and layer here so that they don't cover other obs/turfs in Dream Maker
 	. = ..()
@@ -178,3 +178,9 @@ GLOBAL_DATUM_INIT(openspace_backdrop_one_for_all, /atom/movable/openspace_backdr
 /turf/open/openspace/icemoon/ruins
 	protect_ruin = FALSE
 	drill_below = FALSE
+
+/turf/open/openspace/city
+	name = "city surface"
+	baseturfs = /turf/open/openspace/city
+	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
+	planetary_atmos = TRUE

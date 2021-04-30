@@ -35,6 +35,14 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	flags_1 = CAN_BE_DIRTY_1
 	sound_environment = SOUND_AREA_SPACE
 
+/area/city
+	icon_state = "space_near"
+	requires_power = TRUE
+	sound_environment = SOUND_ENVIRONMENT_CITY
+	has_gravity = STANDARD_GRAVITY
+	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
+	area_flags = UNIQUE_AREA
+
 /area/space/nearstation
 	icon_state = "space_near"
 	dynamic_lighting = DYNAMIC_LIGHTING_IFSTARLIGHT
